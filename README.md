@@ -1,2 +1,7 @@
-# twopane
-like threepane but two
+# twopane.css
+horizontal layouts as easy as 1 2
+
+Install
+```
+curlthis twopane
+```
