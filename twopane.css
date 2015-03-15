@@ -1,0 +1,29 @@
+/* twopane.css
+ * horizontal layouts as easy as 1 2
+ * (c) 2015 David (daXXog) Volm ><> + + + <><
+ * Released under Apache License, Version 2.0:
+ * http://www.apache.org/licenses/LICENSE-2.0.html  
+ */ 
+
+
+/*-- quick margin/padding reset
+*/body, div {
+    margin: 0;
+    padding: 0;
+}
+
+/*-- 100% height fix
+*/html, body {
+    height: 100%;
+}
+
+/*-- main class
+*/.twopane {
+    height: 100%;
+}
+
+/*-- child class
+*/.twopane > div {
+    text-align: center;
+    height: 50%;
+}
